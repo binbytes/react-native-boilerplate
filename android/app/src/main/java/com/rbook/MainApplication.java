@@ -1,4 +1,4 @@
-package com.reatc_native_boilerplate;
+package com.rbook;
 
 import android.app.Application;
 

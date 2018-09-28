@@ -1,4 +1,4 @@
-package com.reatc_native_boilerplate;
+package com.rbook;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "reatc_native_boilerplate";
+        return "RBook";
     }
 }

@@ -1,12 +1,10 @@
-import React, { Component } from "react";
-import { View } from "react-native";
-
-import Main from "./containers/main.screen";
+import React, { Component } from 'react'
+import Root from './layout/index'
 
 class App extends Component {
   render() {
-    return <Main />;
+    return <Root />
   }
 }
 
-export default App;
+export default App

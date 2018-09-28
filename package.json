@@ -1,5 +1,5 @@
 {
-  "name": "reatc_native_boilerplate",
+  "name": "RBook",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,18 +7,19 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.3.1",
-    "react-native": "0.55.4",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0"
+    "prettier": "^1.14.3",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-navigation": "^2.16.0",
+    "styled-components": "^3.4.9"
   },
   "devDependencies": {
-    "babel-jest": "22.4.4",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "22.4.4",
-    "react-test-renderer": "16.3.1"
+    "babel-jest": "23.6.0",
+    "babel-plugin-styled-components": "^1.7.1",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.6",
+    "pretty-quick": "^1.7.0",
+    "react-test-renderer": "16.5.0"
   },
   "jest": {
     "preset": "react-native"
